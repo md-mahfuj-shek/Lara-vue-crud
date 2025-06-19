@@ -23,6 +23,9 @@ const form = useForm({
 const handleSubmit = () => {
     form.post(route('products.store'));
 }
+function submit() {
+    form.post('/products')
+}
 </script>
 
 <template>
